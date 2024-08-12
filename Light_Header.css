@@ -1,0 +1,80 @@
+/* src/Header.css */
+.header {
+    background-color: white;
+    padding: 0;
+    width: 1440px;
+    height: 199px;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-logo img {
+    width: 210px;
+    height: 126px;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 901px;
+    height: 60px;
+    color : #027F7B;
+    background-color: white; /* Lush green color */
+    border-radius: 30px;
+    box-sizing: border-box;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    color: #027F7B;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+  .contactus {
+    background-color: #027F7B;
+    border-radius: 25px;
+    padding: 10px 10px;
+    border: 2px solid #027F7B;
+}
+  ul :hover{
+    border-radius: 25px;
+    background-color: #2fc9c2; 
+  }
+  .contactus a {
+      color: white; 
+      text-decoration: none;
+  }
+  .contactus:hover {
+    border-color: #014040; 
+    border-width: 2px; 
+    background-color: #2fc9c2; 
+}
